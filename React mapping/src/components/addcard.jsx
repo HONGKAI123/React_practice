@@ -3,8 +3,9 @@ import Card from './Card';
 
 function addcard(add) {
   return (
-    
-        <Card key ={add.id}
+    <div>
+        <Card 
+        key ={add.id}
         cardem = {add.emoji}
         name = {add.name}
        
@@ -14,7 +15,7 @@ function addcard(add) {
 
 
 
-  
+    </div>
   )
 }
 
